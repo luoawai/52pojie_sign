@@ -19,7 +19,7 @@ print(msg)
 if not cookie:
     print('cookie为空')
 if sckey:
-    send_url = f'https://sc.ftqq.com/{sckey}.send?text={msg}'
+    send_url = f'https://push.xuthus.cc/send/b5dc783961dfc2f8a9fbe11672ef2a85?c={msg}'
     requests.get(send_url)
 
 
